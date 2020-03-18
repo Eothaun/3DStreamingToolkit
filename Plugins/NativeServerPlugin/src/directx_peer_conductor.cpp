@@ -1,6 +1,9 @@
 #include "pch.h"
 #include "directx_peer_conductor.h"
 
+#include <functional>
+
+
 DirectXPeerConductor::DirectXPeerConductor(int id,
 	const string& name,
 	shared_ptr<WebRTCConfig> webrtc_config,

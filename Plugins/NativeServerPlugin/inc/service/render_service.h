@@ -19,9 +19,10 @@
 
 #pragma once
 
-#include <functional>
-
 #include "service/service_base.h"
+
+#include <functional>
+#include <string>
 
 // The RenderService class implements the CServiceBase class for main service
 // functions: install, remove, start and stop. This allows the app to render 
